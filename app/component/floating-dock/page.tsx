@@ -8,50 +8,47 @@ import {
   IconHome,
   IconNewSection,
   IconTerminal2,
+  
 } from "@tabler/icons-react";
+import { SiLinkedin,SiInstagram,SiYoutube  } from 'react-icons/si';
 import Image from "next/image";
 
 export function FloatingDockDemo() {
   const links = [
-    {
-      title: "Home",
-      icon: (
-        <IconHome className="h-full  text-neutral-200 dark:text-neutral-900" />
-      ),
-      href: "#",
-    },
-
-    {
-      title: "Products",
-      icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-200 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Components",
-      icon: (
-        <IconNewSection className="h-full w-full text-neutral-200 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-  
-
-
+ 
     {
       title: "Twitter",
       icon: (
         <IconBrandX className="h-full w-full text-neutral-200 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://x.com/Mayank_022",
     },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-200 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/Mayankpratapsingh022",
     },
+    {   title: "LinkedIn",
+      icon: (
+          <SiLinkedin className="h-full w-full text-neutral-200 dark:text-neutral-300" />
+      ),
+      href: "https://www.linkedin.com/in/mayankpratapsingh022/",},
+      {
+        title: "Instagram",
+        icon: (
+            <SiInstagram className="h-full w-full text-neutral-200 dark:text-neutral-300" />
+        ),
+        href: "https://www.instagram.com/mayankpratapsingh_022/",
+    },
+    {
+      title: "YouTube",
+      icon: (
+          <SiYoutube className="h-full w-full text-neutral-200 dark:text-neutral-300" />
+      ),
+      href: "https://www.youtube.com/@mayankpratapsingh022",
+  }
   ];
   return (
     <div className="flex  justify-center py-5">

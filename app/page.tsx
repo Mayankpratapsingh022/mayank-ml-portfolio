@@ -3,6 +3,7 @@ import ProfileCard from "./component/hero/page";
 import CardGrid from "./component/projects/page";
 import Changelog from "./component/Life_Update/page";
 import Header from "./component/header";
+import Skills from "./component/skills";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
    <hr className=" border-neutral-500 my-16 border-4"/>
    <CardGrid/>
    <hr className=" border-neutral-500 my-16 border-4"/>
+   <Skills/>
    <Changelog/>
    </div>
     </div>

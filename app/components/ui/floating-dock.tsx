@@ -48,12 +48,17 @@ const FloatingDockMobile = ({
           {/* Render the mobile dock similar to desktop, but inside a div */}
           <motion.div className="flex h-16 gap-4 items-center">
             {items.map((item) => (
-              <Link key={item.title} href={item.href}>
+              <Link key={item.title} href={item.href} >
+                
                 <motion.div
                   className="aspect-square w-10 h-10 md:w-12 md:h-12 rounded-full bg-neutral-900 dark:bg-neutral-800 flex items-center justify-center"
                 >
-                  <div className="w-6 h-6 md:w-8 md:h-8">{item.icon}</div>
-                </motion.div>
+                  <div className="w-6 h-6 md:w-8 md:h-8">
+                 
+                    {item.icon}
+                    </div>
+                  
+                    </motion.div>  
               </Link>
             ))}
           </motion.div>
@@ -141,7 +146,9 @@ function IconContainer({
   const [hovered, setHovered] = useState(false);
 
   return (
-    <Link href={href}>
+    <Link href={href} legacyBehavior  passHref>
+         <a  target="_blank"
+          rel="noopener noreferrer">
       <motion.div
         ref={ref}
         style={{ width, height }}
@@ -168,6 +175,7 @@ function IconContainer({
           {icon}
         </motion.div>
       </motion.div>
+      </a>
     </Link>
   );
 }
