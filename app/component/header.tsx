@@ -22,7 +22,7 @@ export default function Header() {
   const [isClickScrolling, setIsClickScrolling] = useState(false); // New state for click-based scrolling
 
   // Scroll to the section when a link is clicked
-  const handleScrollToSection = (id:'string') => {
+  const handleScrollToSection = (id: string) => {
     setIsClickScrolling(true); // Disable scroll listener during smooth scrolling
     const element = document.getElementById(id);
     if (element) {
