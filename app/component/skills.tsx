@@ -9,7 +9,7 @@ import {
     SiNextdotjs, SiOpencv, SiPandas, SiPostgresql, SiAdobeillustrator, SiAdobeaftereffects, SiFigma 
 } from 'react-icons/si';
 
-const SectionHeading = ({ children }: any) => (
+const SectionHeading = ({ children}) => (
   <h2 className="text-3xl font-bold mb-12">{children}</h2>
 );
 

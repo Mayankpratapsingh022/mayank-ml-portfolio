@@ -4,10 +4,6 @@ import { FloatingDock } from "@/app/components/ui/floating-dock";
 import {
   IconBrandGithub,
   IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
   
 } from "@tabler/icons-react";
 import { SiLinkedin,SiInstagram,SiYoutube  } from 'react-icons/si';
