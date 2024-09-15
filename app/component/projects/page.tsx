@@ -1,4 +1,4 @@
-import { CardComponent } from "../Card/page";
+import { CardComponent } from "@/app/components/ui/CardComponent";
 import { IoIosArrowDown } from "react-icons/io";
 
 
