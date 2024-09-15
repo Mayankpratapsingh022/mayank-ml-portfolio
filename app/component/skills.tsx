@@ -157,7 +157,7 @@ const skillsData = [
     };
 
     return (
-        <section id="skills" className="mb-28  flex justify-center flex-col   scroll-mt-28 sm:mb-40">
+        <section id="stack" className="mb-28  flex justify-center flex-col   scroll-mt-28 sm:mb-40">
             <h1 className="text-secondary-inverse font-semibold text-4xl py-5 mb-5 mr-1">Tech Stack</h1>
 
 

@@ -44,7 +44,7 @@ const updates = [
 
 const Changelog = () => {
   return (
-    <div id="contact" className="bg-neutral-900  text-white min-h-screen py-12 px-8">
+    <div id="experience" className="bg-neutral-900  text-white min-h-screen py-12 px-8">
   <h1 className="text-secondary-inverse font-semibold text-4xl py-5 mr-1">
   Life Changelog and Updates
                   </h1>

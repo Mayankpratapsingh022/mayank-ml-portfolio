@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ProfileCard from "./component/hero/page";
 import CardGrid from "./component/projects/page";
 import Changelog from "./component/Life_Update/page";
