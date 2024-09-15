@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useMemo, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { throttle } from "lodash"; // Throttle scroll event handler
 
@@ -32,16 +32,21 @@ export default function Header() {
   };
 
   // Throttle scroll-based section detection
+  const memoizedSections = useMemo(() => sections, [sections]);
+
   useEffect(() => {
     const handleScroll = throttle(() => {
       if (isClickScrolling) return; // Prevent scroll handler from firing during click-based scrolling
 
-      const currentSection = sections.find((section) => {
+      const currentSection = memoizedSections.find((section) => {
         const element = document.getElementById(section.id);
         if (!element) return false;
         const rect = element.getBoundingClientRect();
-        return rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2;
+        return (
+          rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2
+        );
       });
+
       if (currentSection && currentSection.name !== activeSection) {
         setActiveSection(currentSection.name);
       }
@@ -52,8 +57,8 @@ export default function Header() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [sections, activeSection, isClickScrolling]);
-
+  }, [memoizedSections, activeSection, isClickScrolling, setActiveSection]);
+  
   return (
     <header className="z-[99] relative">
       <motion.div

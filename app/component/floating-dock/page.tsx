@@ -7,7 +7,6 @@ import {
   
 } from "@tabler/icons-react";
 import { SiLinkedin,SiInstagram,SiYoutube  } from 'react-icons/si';
-import Image from "next/image";
 
 export function FloatingDockDemo() {
   const links = [
