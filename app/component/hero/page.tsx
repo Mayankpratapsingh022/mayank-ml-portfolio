@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-import { FloatingDockDemo } from "../floating-dock/page";
+import FloatingDockDemo from "../floating-dock/page";
 
 const ProfileCard: React.FC = () => {
   return (

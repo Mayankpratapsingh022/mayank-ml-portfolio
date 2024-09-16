@@ -1,5 +1,5 @@
 "use client";
-import React from 'react';
+import React,  { ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 // Import icons from react-icons
@@ -9,8 +9,12 @@ import {
     SiNextdotjs, SiOpencv, SiPandas, SiPostgresql, SiAdobeillustrator, SiAdobeaftereffects, SiFigma 
 } from 'react-icons/si';
 
-const SectionHeading = ({ children}) => (
-  <h2 className="text-3xl font-bold mb-12">{children}</h2>
+interface SectionHeadingProps {
+    children: ReactNode;
+}
+
+const SectionHeading: React.FC<SectionHeadingProps> = ({ children }) => (
+    <h2 className="text-3xl font-bold mb-12">{children}</h2>
 );
 
 export default function Skills() {
