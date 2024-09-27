@@ -7,44 +7,60 @@ const updates = [
     items: [
       {
         title: 'Started working on MLOps Projects 🚀',
-        description: 'Dived into MLOps, learning tools like MLflow, ZenML, and orchestrating models for deployment at scale.',
+        description: 'Dived into MLOps, mastering tools like MLflow, ZenML, and orchestrating models for seamless deployment. Worked with data pipelines, versioning, and production-level model management.',
       },
       {
-        title: 'Deployed GAN-based Image Generator 🎨',
-        description: 'Built and deployed a GAN model that generates high-quality images. This project helped me explore deep learning and its generative capabilities.',
+        title: 'Built a Stroke Detection AI 🧠',
+        description: 'Created an innovative healthcare project focused on stroke detection using machine learning models, improving accuracy in early diagnosis with models like XGBoost and CatBoost.',
       },
-      {
-        title: 'Completed Machine Learning Bootcamp 🏅',
-        description: 'Finished an extensive bootcamp covering linear regression, logistic regression, neural networks, and more.',
-      },
+      
     ],
   },
   {
     year: '2023',
     items: [
       {
-        title: 'Started learning Machine Learning 📘',
-        description: 'Began my machine learning journey with a focus on linear regression, decision trees, and overfitting/underfitting concepts.',
+        title: 'Developed a Landing Page for FinTech Startups 💼',
+        description: 'Worked as a freelance FullStack Developer with fintech startups to enhance user experiences on landing pages and streamline backend workflows. Leveraged technologies like Next.js, Node.js, and PostgreSQL.',
       },
       {
-        title: 'Built a Stroke Detection AI 🧠',
-        description: 'Created a healthcare project focused on stroke detection using machine learning models.',
-      },
-      {
-        title: 'First AI Research Paper Published 📝',
-        description: 'Published my first research paper on the applications of deep learning in natural language processing.',
+        title: 'Developed Custom Video Editor 🎬',
+        description: 'Created a custom video editor for as a passion project , enabling efficient year-end video wrap-ups. Technologies used: Next.js, Node.js, PostgreSQL, and Remotion.',
       },
       {
         title: 'Developed AI Portfolio Generator 📂',
-        description: 'Built an AI-based portfolio generator that creates personalized portfolios for job seekers in tech.',
+        description: 'Built an AI-powered portfolio generator that crafts personalized portfolios for job seekers in tech, (Wrapper Project) used: React, Node.js and OpenAI API for dynamic content code generation.',
+      },
+    ],
+  },
+  {
+    year: '2022',
+    items: [
+      {
+        title: 'Embarking on My Full-Time Coding Journey 💻',
+        description: 'Committed to pursuing software development full-time, I transitioned into coding, dedicating myself to mastering key technologies and building impactful projects. With a focus on full-stack development',
+      },
+      {
+        title: 'Enhanced Learning for EdTech Companies ✨',
+        description: 'As a Motion Designer & Editor, created engaging educational content and animations that captivated audiences, improving the learning experience for EdTech companies.',
+      },
+    ],
+  },
+  {
+    year: '2021',
+    items: [
+      {
+        title: 'Motion Graphics & Video Editor 🎨',
+        description: 'Developed high-quality animations and visual content for content creators and business owners, contributing to a diverse range of multimedia projects as a freelance Motion Graphics Designer & Animator.',
       },
     ],
   },
 ];
 
+
 const Changelog = () => {
   return (
-    <div id="experience" className="bg-neutral-900  text-white min-h-screen py-12 px-8">
+    <div id="experience" className="bg-neutral-900  text-white min-h-screen py-12 ">
   <h1 className="text-secondary-inverse font-semibold text-4xl py-5 mr-1">
   Life Changelog and Updates
                   </h1>

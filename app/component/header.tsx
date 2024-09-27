@@ -11,8 +11,6 @@ export default function Header() {
     { name: "Stack", id: "stack" },
 
     { name: "Experience", id: "experience" },
-    { name: "Blog", id: "blog" },
-    { name: "Resume", id: "resume" },
 
 
 
