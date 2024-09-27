@@ -11,7 +11,7 @@ const CardGrid: React.FC = () => {
       techStack: ["Linear Regression", "Logistic Regression", "Support Vector Machine (SVM)", "Naive Bayes", "K-Means", "PCA"],
       viewUrl: "https://github.com/Mayankpratapsingh022/ML_from_Scratch",
       githubUrl: "https://github.com/Mayankpratapsingh022/ML_from_Scratch",
-      imageSrc: "/ML_from_S.jpg", // Add imageSrc here
+      imageSrc: "/Ml_from_S.jpg", // Add imageSrc here
     },
     {
       title: "Neural Network From Scratch",

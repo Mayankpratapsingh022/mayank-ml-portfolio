@@ -11,7 +11,7 @@ const updates = [
       },
       {
         title: 'Built a Stroke Detection AI 🧠',
-        description: 'Created an innovative healthcare project focused on stroke detection using machine learning models, improving accuracy in early diagnosis with models like XGBoost and CatBoost.',
+        description: 'Created an healthcare project focused on stroke detection using machine learning models, improving accuracy in early diagnosis.',
       },
       
     ],
