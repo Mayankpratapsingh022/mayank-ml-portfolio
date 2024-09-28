@@ -27,7 +27,7 @@ const CardGrid: React.FC = () => {
       techStack: ["Python", "Numpy", "Backpropagation", "Gradient Descent", "Activation Functions"],
       viewUrl: "",
       githubUrl: "",
-      imageSrc: "/neutral_net.jpg", // Add imageSrc here
+      imageSrc: "/neural_net.jpg", 
     },    
 
 
