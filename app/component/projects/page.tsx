@@ -9,8 +9,8 @@ const CardGrid: React.FC = () => {
       title: "Customer Satisfaction Prediction using ZenML",
       paragraph: "Predicted customer satisfaction scores for future orders using historical e-commerce data from the Brazilian E-Commerce Public Dataset by Olist. This project leverages multiple machine learning models like CatBoost, XGBoost, and LightGBM, built within a ZenML pipeline to create a production-ready solution.",
       techStack: [ "XGBoost", "Optuna", "ZenML", "Streamlit", "MLflow"],
-      viewUrl: "",
-      githubUrl: "",
+      viewUrl: "https://github.com/Mayankpratapsingh022/Customer-Satisfaction-MLOps/tree/main",
+      githubUrl: "https://github.com/Mayankpratapsingh022/Customer-Satisfaction-MLOps/tree/main",
       imageSrc: "/customer_pipeline.jpg", 
     },
     {
