@@ -25,8 +25,8 @@ const CardGrid: React.FC = () => {
       title: "Neural Network From Scratch",
       paragraph: "Implemented a neural network from scratch using Python and Numpy. This project explores how neural networks work at a fundamental level without relying on frameworks like TensorFlow or PyTorch.",
       techStack: ["Python", "Numpy", "Backpropagation", "Gradient Descent", "Activation Functions"],
-      viewUrl: "",
-      githubUrl: "",
+      viewUrl: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
+      githubUrl: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
       imageSrc: "/neural_net.jpg", 
     },    
 

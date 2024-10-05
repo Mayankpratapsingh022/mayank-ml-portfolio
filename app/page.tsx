@@ -15,6 +15,7 @@ export default function Home() {
       <Header/>
    <div className="lg:w-3/5  px-12  w-full">
    <ProfileCard/>
+   <h1>This webiste is not ready yet sorry if any links are broken</h1>
    <hr className=" border-neutral-500 my-16 border-4"/>
    <CardGrid/>
    <hr className=" border-neutral-500 my-16 border-4"/>
