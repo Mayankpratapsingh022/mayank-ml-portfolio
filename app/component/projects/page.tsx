@@ -26,16 +26,16 @@ const CardGrid: React.FC = () => {
         "Docker",
         "AWS S3",
         "AWS EC2 Instance"],
-      viewUrl: "https://github.com/Mayankpratapsingh022/ML_from_Scratch",
-      githubUrl: "https://github.com/Mayankpratapsingh022/ML_from_Scratch",
+      viewUrl: "https://github.com/Mayankpratapsingh022/Network_Security",
+      githubUrl: "https://github.com/Mayankpratapsingh022/Network_Security",
       imageSrc: "/Ml_from_S.png", // Add imageSrc here
     },
     {
       title: "Neural Network From Scratch",
       paragraph: "Implemented a neural network from scratch using Python and Numpy. This project explores how neural networks work at a fundamental level without relying on frameworks like TensorFlow or PyTorch.",
       techStack: ["Python", "Numpy", "Backpropagation", "Gradient Descent", "Activation Functions"],
-      viewUrl: "https://github.com/Mayankpratapsingh022/Network_Security",
-      githubUrl: "https://github.com/Mayankpratapsingh022/Network_Security",
+      viewUrl: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
+      githubUrl: "https://github.com/Mayankpratapsingh022/Neural_Network_from_Scratch",
       imageSrc: "/neural_net.jpg", 
     },    
 
